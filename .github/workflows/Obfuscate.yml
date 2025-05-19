@@ -2,7 +2,7 @@ name: Auto Update Worker
 
 on:
   push:
-         分支:
+分支:
       - main
   schedule:
     - cron: "0 1 * * *" # 每天凌晨1点自动运行
